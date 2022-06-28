@@ -54,7 +54,8 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 
-extensions = ['recommonmark','sphinx_markdown_tables']
+#extensions = ['recommonmark','sphinx_markdown_tables']
+extensions = ['recommonmark']
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'restructuredtext',
